@@ -13,7 +13,7 @@ rate = input('What is your hourly pay rate? ')
 hours = input ('How many hours did you work? ')
 
 #Calculate total pay
-pay = int(rate)*int(hours)
+pay = float(rate)*float(hours)
 
 #Display total payout
 print(f'Your total pay will be ${pay}!')
