@@ -2,23 +2,23 @@ def calculatePay():
     # Implement your solution in between the two comment blocks
     print("calculating pay")
    
-   #Greeting
-name = input("What is your name? ")
-print(f'Hello, {name}!')
+    #Greeting
+    name = input("What is your name? ")
+    print(f'Hello, {name}!')
 
-#Request the pay rate
-rate = input('What is your hourly pay rate? ')
+    #Request the pay rate
+    rate = input('What is your hourly pay rate? ')
 
-#Request number of hours worked
-hours = input ('How many hours did you work? ')
+    #Request number of hours worked
+    hours = input ('How many hours did you work? ')
 
-#Calculate total pay
-pay = float(rate)*float(hours)
+    #Calculate total pay
+    pay = float(rate)*float(hours)
 
-#Display total payout
-print(f'Your total pay will be ${pay}!')
+    #Display total payout
+    print(f'Your total pay will be ${pay}!')
 
-    # end assignment
+        # end assignment
 
 
 ## If you want to test locally before you try to sync
