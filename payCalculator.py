@@ -2,10 +2,6 @@ def calculatePay():
     # Implement your solution in between the two comment blocks
     print("calculating pay")
    
-    #Greeting
-    name = input("What is your name? ")
-    print(f'Hello, {name}!')
-
     #Request the pay rate
     rate = input('What is your hourly pay rate? ')
 
@@ -16,9 +12,9 @@ def calculatePay():
     pay = float(rate)*float(hours)
 
     #Display total payout
-    print(f'Your total pay will be ${pay}!')
+    print(f'pay\n{pay}')
 
-        # end assignment
+  # end assignment
 
 
 ## If you want to test locally before you try to sync
