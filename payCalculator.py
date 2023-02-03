@@ -3,13 +3,13 @@ def calculatePay():
     print("calculating pay")
    
     #Request the pay rate
-    rate = input()
+    rate = input("rate: ")
 
     #Request number of hours worked
-    hours = input()
+    hours = input("hours: ")
 
     #Calculate total pay
-    pay = float(rate)*int(hours)
+    pay = float(rate)*float(hours)
 
     #Display total payout
     print(pay)
