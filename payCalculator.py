@@ -1,18 +1,18 @@
-def calculatePay(rate, hours):
+def calculatePay():
     # Implement your solution in between the two comment blocks
-    print("calculating pay\n{}".format(rate*hours))
+    print("calculating pay")
    
-    # #Request the pay rate
-    # rate = input()
+    #Request the pay rate
+    rate = input()
 
-    # #Request number of hours worked
-    # hours = input()
+    #Request number of hours worked
+    hours = input()
 
-    # #Calculate total pay
-    # pay = float(rate)*float(hours)
+    #Calculate total pay
+    pay = float(rate)*int(hours)
 
-    # #Display total payout
-    # print(f'pay\n{pay}')
+    #Display total payout
+    print(f'{pay}')
 
   # end assignment
 
