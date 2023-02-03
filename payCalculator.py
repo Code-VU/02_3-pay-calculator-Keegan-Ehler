@@ -12,7 +12,7 @@ def calculatePay():
     pay = float(rate)*int(hours)
 
     #Display total payout
-    print(f'{pay}')
+    print(pay)
 
   # end assignment
 
